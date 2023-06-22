@@ -84,11 +84,15 @@ const collection = [
 ];
 
 const normalize = (arr) => {
-const oneObject = Object.assign()
+  return arr.reduce((index, obj) => {
+    const { id, ...rest } = obj;
+    return { ...index, [id]: rest };
+  }, {});
 };
 
 const result = normalize(collection);
 console.log(result);
+
 /*
 Resultado:
 {
