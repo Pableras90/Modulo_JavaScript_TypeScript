@@ -1,4 +1,6 @@
-/*Utilizando la interfaz Student del ejercicio anterior, crea la definición de User de tal manera que pueda ser o Student o Teacher. Aplica la definición de User donde sea requerido solventar los errores de tipos.*/
+/*Utilizando la interfaz Student del ejercicio anterior,
+crea la definición de User de tal manera que pueda ser o Student o Teacher.
+Aplica la definición de User donde sea requerido solventar los errores de tipos.*/
 var users = [
     {
         name: "Luke Patterson",
